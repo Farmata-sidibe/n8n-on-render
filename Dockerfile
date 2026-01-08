@@ -1,5 +1,5 @@
 # Utilise l'image officielle n8n
-FROM n8nio/n8n
+FROM n8nio/n8n:latest
 
 # Active la protection par mot de passe
 ENV N8N_BASIC_AUTH_ACTIVE=true
